@@ -6,9 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learnTailwind</title>
     <link href="/css/main.css" rel="stylesheet">
-
 </head>
-<body>
-    <h1 class="text-center font-bold text-indigo-800 bg">Hello World!!</h1>
+<body class="bg-slate-300">
+    <div class="mx-auto text-base">
+        <h1 class="font-bold text-purple-400 hover:text-purple-700 block">Hello World!!</h1>
+        <form class="p-3">
+            <label>
+                <span class="block text-sm font-semibold text-zinc-900 pb-3">Email</span>
+                <input type="text" class="placeholder-slate-400 text-xs border border-slate-200 py-2 rounded-xl px-3 focus:outline-none focus:outline-red-400 hover:bg-purple-300 placeholder:text-red-500 active:border-l-green-800 active:border-purple-100 active:ring-purple-800" placeholder="tbone">
+            </label>
+
+            <label class="block">
+                <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                  Email *
+                </span>
+                <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm" placeholder="you@example.com" />
+            </label>
+        </form>
+    </div>
+    <!-- <div class="flex items-center">
+        <img src="path/to/image.jpg">
+        <div>
+          <strong>Andrew Alfred</strong>
+          <span>Technical advisor</span>
+        </div>
+      </div>
+      <button>
+        Transactions
+      </button>
+      <span class="flex h-3 w-3">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">Highlight</span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500">More</span>
+      </span> -->
 </body>
 </html>
