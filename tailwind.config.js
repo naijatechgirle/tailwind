@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './index.html'
+    './index.html',
+    './dashboard.html'
   ],
   theme: {
     extend: {
@@ -12,6 +13,7 @@ module.exports = {
       colors: {
         deepBlue: {
           950: '#2B2B42',
+          990: '#676798',
         }
       }
     },
