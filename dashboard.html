@@ -11,25 +11,25 @@
 <body class="bg-deepBlue-950 text-slate-300 h-32 flex font-[Verdana]">
     <aside class="bg-deepBlue-990 h-screen w-full md:w-52 text-white-400">
         <nav class="mt-12 mb-20">
-            <ul class="text-center space-y-16 font-thin cursor-pointer">
+            <ul class="text-center space-y-16 font-thin cursor-pointer p-3 md:p-0">
                 <ion-icon name="grid-outline" class="hover:text-white hover:animate-bounce ease-in-out transition" size="large"></ion-icon>
-                <li class="cursor:pointer hover:text-white">
+                <li class="listStyle cursor-pointer">
                     <ion-icon name="planet-outline"></ion-icon>
                     Home
                 </li>
-                <li class="cursor:pointer hover:text-white">
+                <li class="listStyle cursor-pointer">
                     <ion-icon name="people-outline"></ion-icon>
                     Client
                 </li>
-                <li class="cursor:pointer hover:text-white">
+                <li class="listStyle cursor-pointer">
                     <ion-icon name="car-sport-outline"></ion-icon>
                     Vehicle
                 </li>
-                <li class="cursor:pointer hover:text-white">
+                <li class="listStyle cursor-pointer">
                     <ion-icon name="person-add-outline"></ion-icon>
                     Staffs
                 </li>
-                <li class="cursor:pointer hover:text-white">
+                <li class="listStyle cursor-pointer">
                     <ion-icon name="add-circle-outline"></ion-icon>
                     Services
                 </li>
@@ -38,10 +38,55 @@
     </aside>
     <section class="container my-5 md:my-10">
         <h1 class="font-medium text-xl">Dashboard</h1>
-        <hr class="border-[#676798] mt-2">
-        <div class="card">
+        <div class="flex flex-col justify-evenly my-10 mx-5 md:flex-row">
+            <div class="rounded-md bg-deepBlue-990 px-5 py-3 h-min text-base space-y-4 pt-6 text-center mb-6 md:mb-0 w-full shadow-2xl hover:transition ease-in-out hover:text-white hover:translate-x-1 hover:outline-0 hover:ring-4 hover:ring-bg-deepBlue-990">
+                <ion-icon size="large" name="car-sport-outline"></ion-icon>
+                <p>Registered Vehicle With Proper Doucumentation</p>
+                <h6>12</h6>
+            </div>
+            <div class="rounded-md bg-deepBlue-950 px-5 py-3 h-min text-base space-y-4 pt-6 text-center mb-6 shadow-2xl hover:transition ease-in-out hover:text-white hover:translate-x-1 hover:outline-0 hover:ring-4 hover:ring-bg-deepBlue-990 md:mb-0 w-full md:ml-5">
+                <ion-icon size="large" name="people-outline"></ion-icon>
+                <p>Number Of Clients Registered With Our Comapny</p>
+                <h6>12</h6>
+            </div>
+            <div class="rounded-md bg-deepBlue-990 px-5 py-3 h-min text-base space-y-4 pt-6 text-center w-full md:ml-5 shadow-2xl hover:transition ease-in-out hover:text-white hover:translate-x-1 hover:outline-0 hover:ring-4 hover:ring-bg-deepBlue-990">
+                <ion-icon size="large" name="person-add-outline"></ion-icon>
+                <p>Employee's Information And Administrative Access</p>
+                <h6>12</h6>
+            </div>
             
-        </div>
+          </div>
+          <hr class="border-[#676798] mt-2">
+
+          <section class="mt-5">
+            <table class="table-auto w-full">
+                <thead>
+                  <tr class="text-left">
+                    <th>Song</th>
+                    <th>Artist</th>
+                    <th class="mb-5">Year</th>
+                  </tr>
+                </thead>
+                <tbody class="space-y-16">
+                  <tr class="mb-10 border-b border-b-indigo-500">
+                    <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+                    <td>Malcolm Lockyer</td>
+                    <td>1961</td>
+                    <td><hr class="border-[#676798] mt-2"></td>
+                  </tr>
+                  <tr class="mb-5">
+                    <td>Witchy Woman</td>
+                    <td>The Eagles</td>
+                    <td>1972</td>
+                  </tr>
+                  <tr class="mb-5">
+                    <td>Shining Star</td>
+                    <td>Earth, Wind, and Fire</td>
+                    <td>1975</td>
+                  </tr>
+                </tbody>
+              </table>
+          </section>
     </section>
 
      <!-- iconic icons -->
