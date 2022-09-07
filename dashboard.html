@@ -9,29 +9,29 @@
     <script src="https://kit.fontawesome.com/db5d7e4524.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-deepBlue-950 text-slate-300 h-32 flex font-[Verdana]">
-    <aside class="bg-deepBlue-990 h-screen w-full md:w-52 text-white-400">
+    <aside class="bg-deepBlue-990 h-screen w-full md:w-52 text-white-400" id="navBar">
         <nav class="mt-12 mb-20">
             <ul class="text-center space-y-16 font-thin cursor-pointer p-3 md:p-0">
-                <ion-icon name="grid-outline" class="hover:text-white hover:animate-bounce ease-in-out transition" size="large"></ion-icon>
+                <ion-icon name="grid-outline" id="navBtn" class="hover:text-white hover:animate-bounce ease-in-out transition" size="large"></ion-icon>
                 <li class="listStyle cursor-pointer">
                     <ion-icon name="planet-outline"></ion-icon>
-                    Home
+                    <p id="listStyleIcon">Home</p>
                 </li>
                 <li class="listStyle cursor-pointer">
                     <ion-icon name="people-outline"></ion-icon>
-                    Client
+                    <p id="listStyleIcon">Client</p>
                 </li>
                 <li class="listStyle cursor-pointer">
                     <ion-icon name="car-sport-outline"></ion-icon>
-                    Vehicle
+                    <p id="listStyleIcon">Vehicle</p>
                 </li>
                 <li class="listStyle cursor-pointer">
                     <ion-icon name="person-add-outline"></ion-icon>
-                    Staffs
+                    <p id="listStyleIcon">Staffs</p>
                 </li>
                 <li class="listStyle cursor-pointer">
                     <ion-icon name="add-circle-outline"></ion-icon>
-                    Services
+                    <p id="listStyleIcon">Services</p>
                 </li>
             </ul>
         </nav>
@@ -57,29 +57,28 @@
             
           </div>
           <hr class="border-[#676798] mt-2">
-
-          <section class="mt-5">
-            <table class="table-auto w-full">
+          <section class="my-5">
+            <table class="table-auto w-full border-slate-500">
                 <thead>
-                  <tr class="text-left">
+                  <tr class="text-left border-spacing-y-7">
                     <th>Song</th>
                     <th>Artist</th>
-                    <th class="mb-5">Year</th>
+                    <th>Year</th>
                   </tr>
                 </thead>
-                <tbody class="space-y-16">
-                  <tr class="mb-10 border-b border-b-indigo-500">
+                <tbody>
+                  <tr class="border-b border-b-indigo-500">
                     <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
                     <td>Malcolm Lockyer</td>
                     <td>1961</td>
-                    <td><hr class="border-[#676798] mt-2"></td>
+                    <td><hr class="border-[#c9c9eb] mt-2"></td>
                   </tr>
-                  <tr class="mb-5">
+                  <tr>
                     <td>Witchy Woman</td>
                     <td>The Eagles</td>
                     <td>1972</td>
                   </tr>
-                  <tr class="mb-5">
+                  <tr>
                     <td>Shining Star</td>
                     <td>Earth, Wind, and Fire</td>
                     <td>1975</td>
@@ -92,5 +91,6 @@
      <!-- iconic icons -->
      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <script src="/index.js"></script>
 </body>
 </html>
