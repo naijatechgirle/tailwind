@@ -6,4 +6,10 @@
     .listStyle {
         @apply hover:text-white;
     }
+    /* .borderSpacing: {
+        '13': '3.25rem',
+      }, */
+    /* .tableSpace {
+        @apply border-spacing: 30px;
+    } */
 }
