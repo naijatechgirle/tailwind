@@ -7,7 +7,9 @@ let navClickFxn =()=> {
     // listStyle.style.display = 'none'
     
     navBar.style.width == '13rem' ? navBar.style.width == '8rem' : navBar.style.width === '13rem';
-    // navBar.style.width = '85px'
+    // if(navBar.style.width === 3){
+    
+    // );
 
 }
 asideBtn.addEventListener('click', navClickFxn);
